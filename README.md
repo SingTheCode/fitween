@@ -28,7 +28,7 @@
 
 - #### 목표: 지역데이터 + 신체데이터를 활용하여 의류공유를 진행할 수 있는 유저를 연결해주는 매칭 시스템
 
-- #### [fitween 진행 내용 (by notion)](https://www.notion.so/151958/FITWEEN-4a6746ec06ff428ebf2cedb6100b8230)
+- #### [fitween 진행 내용 (by notion)](https://151958.notion.site/FITWEEN-4a6746ec06ff428ebf2cedb6100b8230)
 
 - #### 서비스 특징
 
