@@ -64,16 +64,6 @@
 | Nginx   | 1.18.0    | Web Server, Reverse Proxy Server |
 | Ubuntu  | 20.04 LTS |                                  |
 
-## DB 접속 정보
-
-### DB 주요 계정
-
-**계정 ID**
-`posi`
-
-**계정 비밀번호**
-`ctrlc104`
-
 ### 프로퍼티가 정의된 파일 목록
 
 backend-java.src.main.resource.application-properties
@@ -83,18 +73,6 @@ backend-java.src.main.resource.application-properties
 #### Frontend
 
 client 폴더 안에서 아래의 명령어를 실행한다.
-
-```
-환경변수 설정 (.env)
-
-REACT_APP_KAKAO_REST_API_KEY=6ab4f97909eb049024ba0d032f05c39b
-REACT_APP_GOOGLE_CLIENT_KEY=956905247248-cstoigvrq4o6dr1pum5sjmrsreh8geps.apps.googleusercontent.com
-REACT_APP_CLIENT_URI=http://localhost:3000
-REACT_APP_API_URI=http://i7c104.p.ssafy.io:8090
-REACT_APP_MOCK_API_URI=http://localhost:5000
-REACT_APP_SOCKET_URI=http://i7c104.p.ssafy.io:8090/ws/chat
-
-```
 
 ```
 패키지 설치
@@ -129,20 +107,6 @@ $ java -jar ssafy-web-project-1.0-SNAPSHOT.jar
 #### 구글 oauth 로그인을 위한 API
 
 API 소스 주소 : https://apis.google.com/js/platform.js?onload=init
-
-활용 키
-
-REACT_APP_GOOGLE_CLIENT_KEY=956905247248-cstoigvrq4o6dr1pum5sjmrsreh8geps.apps.googleusercontent.com
-
-REACT_APP_CLIENT_URI=http://localhost:3000
-
-### Kakao Map API
-
-#### 브라우저에서 받은 위치정보를 지역으로 바꾸기 위한 API
-
-API 소스 주소 : https://dapi.kakao.com/v2/local/geo/coord2address.json
-
-활용 키 : REACT_APP_KAKAO_REST_API_KEY=6ab4f97909eb049024ba0d032f05c39b
 
 ## DB 덤프 파일
 
